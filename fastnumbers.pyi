@@ -441,7 +441,7 @@ def isint(
     *,
     str_only: bool = False,
     num_only: bool = False,
-    base: Optional[pyint] = None,
+    base: pyint = 0,
     allow_underscores: bool = True,
 ) -> bool: ...
 def isintlike(
